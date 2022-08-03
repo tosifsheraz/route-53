@@ -58,3 +58,8 @@ variable "tags" {
   type        = string
   default     = "Vpc-custom-demo"
 }
+
+variable "domain_name" {
+  default = "example.com"
+  
+}
